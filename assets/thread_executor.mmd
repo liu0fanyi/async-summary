@@ -1,0 +1,7 @@
+flowchart TD
+  N["thread-executor"] --> A
+  A["通过标记#[embassy-executor::main]"] -->|调用到thread::executor::run| 初始化Spawner --> LOOP(loop)
+  LOOP --> P[进行poll轮询]
+  P --> S["arch/cortex-m: 启动wfe等待sev唤醒
+  arch/riscv32: 启动wfi等待中断发生"] --> LOOP
+  %% P -.-> Pool[一次pool]

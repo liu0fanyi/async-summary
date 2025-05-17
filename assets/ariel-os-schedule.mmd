@@ -1,0 +1,32 @@
+flowchart TD
+  YieldSame["同级thread主动让出
+    yield_same()"] --> Schdule
+
+  SetPriority["设置优先级
+    Scheduler.set_priority"] --> Schdule
+
+  EmbassyExecutor["ariel's thread executor
+会通过set flag来修改状态"] --> StateChanged
+
+  StateChanged["状态变化
+    Scheduler.set_state
+    -----------------------
+    如果old.running -> not running, schdule
+    =======================
+    如果any->running，则根据优先级schedule
+    "] --> Schdule
+
+  Schdule["schedule调度"] --> A
+  A["set_pendsv(); isb()触发PendSv异常"] --> |进入PendSv asm代码| PendSV[调用sched，并切换上下文]--> |1调度| Sched["sched"]
+
+  Sched --> NextTid["获取下一个运行tid"]
+
+  PendSV -.-> |2切换上下文| Switch["保存当前的regs到stack
+从新thread的stack加载regs"]
+
+  NextTid --> |啥也没有| None["wfi休眠等中断"]
+  NextTid --> |弄到一个| Have["保存sp和regs到当前数据;
+更新当前线程是next_tid;
+更新实际的sp;
+返回新线程的high_regs指针(给r0和r1)，PendSV使用"]
+

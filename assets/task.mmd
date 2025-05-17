@@ -1,0 +1,14 @@
+flowchart TD
+  N["poll"] --> A
+  A["dequeue_all弹出所有的task"] --> TaskPoll[依次执行task.poll_fn，
+  poll_fn被注册到了TaskStorage::poll
+  ]--> |TaskStorage.poll| TaskStoragePoll(构建context上下文)
+  TaskStoragePoll--> P[taskref已经有了future,构建waker,waker送给cx]
+  P --> Future["future.poll(&mut cx)"] --> 处理Ready和Pending
+  P -.-> |构建waker| RawWaker["从raw waker构建"] -.-> Wake[被wake的时候会调用wake_task] -.-> 会enqueue_task -.-> 会__pender进行唤醒 -.-> N
+
+  
+  NVICInt["-硬件中断(比如dma)-会将自己的waker，
+  通过实现Future，
+  注册到构建context的时候传递下来的raw.waker"] --> 触发中断的时候就会走waker的流程 --> Wake
+  TaskStoragePoll -.-> |上下文会给leaf future使用| NVICInt 

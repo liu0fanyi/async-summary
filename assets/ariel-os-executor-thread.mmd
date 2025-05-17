@@ -1,0 +1,78 @@
+flowchart TD
+  Init["Init
+    --------------
+初始化一个thread, 优先级很低默认8可以设置
+在其中运行一个定制的executor-thread
+生成一个static的spawner
+    "]
+  Init --> |run| ExecutorThreadRun["
+    在init之后就会run起来
+    -------------------------
+    在loop里等待当前thread的THREAD_FLAG_WAKEUP
+    也就是wake之后就会重新轮询Poll
+"]
+  Init --> |__pender| ExecutorThreadPender["
+经过了embassy的标准wake流程后走到了这里
+    --------------------------
+根据cx获得的threadid
+set 标志位THREAD_FLAG_WAKEUP
+根据更上面Thread-Scheduler已经描述过的，这会导致schedule
+"]
+  Example --> ExampleTask
+  Example --> ExampleThread
+subgraph task
+  ExampleTask["
+    标记一个task
+    默认不动
+    等待spawn
+  "] -->
+   TaskLoop["loop"] -->
+     TaskSignal["
+       里面使用了SIGNAL.signal(count)
+       一个值准备好可以读取
+       下次调用会直接覆盖
+       没有buffer
+     "]
+      --> TaskTimer["延迟一段时间让出时间片"] --> TaskLoop
+end
+
+subgraph main-thread
+  TaskTimer -.让出时间片.-> BLOCKON 
+  ExampleThread["
+    标记一个main thread"]
+
+  ExampleThread --> SpawnTask["spawn了左边的task
+task enqueue->ready，但优先级低还不会被dequeue
+"] --> 循环10次读取 --> BLOCKON["block_on等待(SIGNAL.wait()返回的future)"] --> 打印时间
+
+  BLOCKON -.实现.-> Context["Pin了传入的future
+这里就是SIGNAL.wait()返回的future
+    -----------------------
+组装上下文cx
+cx装入了waker
+干的thread-executor一样事
+设置当前thread的线程标志THREAD_FLAG_WAKE
+"] --> BlockOnLoop["loop"] --> Poll["
+future.poll(cx)轮询
+    ----------------------
+在本例子
+每次poll(cx)的时候SIGNAL返回的future都会设置它对应的waker(在SIGINAL的State::Waiting(waker)内)
+"] --> PollResult["
+Ready返回结果不然等待THREAD_FLAG_WAKER
+    ----------------------
+在本例子
+等待的过程中当前thread让出
+executor所在thread开始dequeue
+然后SIGNAL.signal更新了当前最新值, 并wake(这是main thread，上面那个blockon传入的cx的waker)
+所以这个wake了main thread继续poll
+当前有值了，return了res
+在外部的10次循环中继续下一次再回到这个位置wait
+然后再次让给task
+"] --> BlockOnLoop
+
+BLOCKON -.中间出让时间片.-> TaskLoop
+end
+
+
+ style BLOCKON fill:#bbf,stroke:#333,stroke-width:4px
+ style PollResult fill:#bbf,stroke:#333,stroke-width:4px

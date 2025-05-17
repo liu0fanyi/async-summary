@@ -1,0 +1,9 @@
+flowchart TD
+  N["interrupt-executor"] --> |优先级由硬件中断优先级保证| A
+  A["进入#[entry]main"] --> New["使用interruptExecutor::new()新建(多个)"] --> 使用set_priority设置优先级--> Start[使用start写入一个自定义中断
+生成一个send的spawner] --> 使用spawn生成一个task --> Interrupt[等待硬件中断发生]
+  Interrupt --> Wake[wake
+enqueue
+__pender]
+  Wake --> S["使用NVIC::pend存储在executor里的自定义中断"] --> 触发自定义中断on_interrupt执行poll--> Interrupt
+  %% P -.-> Pool[一次pool]

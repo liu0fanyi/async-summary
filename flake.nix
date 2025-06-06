@@ -53,31 +53,10 @@
             curl
             pkg-config
             gcc-arm-embedded
-            pkgsCross.riscv64.stdenv.cc
           ];
           buildInputs = with pkgs; [
-            # ariel-os
-            ## git
-            laze
-            probe-rs-tools
-            picotool
-            udev
-            elf2uf2-rs
-            ## cargo
-            laze
-            # docker
-            dive
-            ## serial
-            tio
-
             # rust
             rustToolchain
-
-            # 方便输出asm
-            cargo-show-asm
-
-            # rcore
-            cargo-binutils
             # qemu
             mdbook
           ];

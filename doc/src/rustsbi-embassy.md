@@ -406,7 +406,7 @@ img { max-width: 75%; height: auto; }
   <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">
     <table style="border-width: 2pt; font-size: 12pt;">
     <tr>
-    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;"><img src="https://raw.githubusercontent.com/liu0fanyi/async-summary/refs/heads/main/example/src/fe6f57cd6c.png" />
+    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;"><img src="https://raw.githubusercontent.com/liu0fanyi/async-summary/refs/heads/main/doc/src/fe6f57cd6c.png" />
     </td>
     </tr>
     </table>
@@ -487,7 +487,7 @@ img { max-width: 75%; height: auto; }
       <tr>
       <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">拨码
       </td>
-      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;"><img src="https://raw.githubusercontent.com/liu0fanyi/async-summary/refs/heads/main/example/src/3436a55010.png" />
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;"><img src="https://raw.githubusercontent.com/liu0fanyi/async-summary/refs/heads/main/doc/src/3436a55010.png" />
       </td>
       </tr>
       <tr>
@@ -1130,7 +1130,7 @@ img { max-width: 75%; height: auto; }
       <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">
         <table style="border-width: 2pt; font-size: 10pt;">
         <tr>
-        <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;"><img src="https://raw.githubusercontent.com/liu0fanyi/async-summary/refs/heads/main/example/src/f45d6694cc.png" />
+        <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;"><img src="https://raw.githubusercontent.com/liu0fanyi/async-summary/refs/heads/main/doc/src/f45d6694cc.png" />
         </td>
         </tr>
         </table>

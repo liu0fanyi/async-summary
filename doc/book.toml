@@ -3,7 +3,3 @@ authors = ["liu"]
 language = "en"
 src = "src"
 title = "async"
-
-[output.html]
-additional-css = ["theme/pagetoc.css"]
-additional-js = ["theme/pagetoc.js"]

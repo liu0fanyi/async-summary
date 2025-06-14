@@ -422,7 +422,7 @@
   <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">
     <table style="border-width: 2pt; font-size: 12pt;">
     <tr>
-    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">
+    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;"><img src="https://raw.githubusercontent.com/liu0fanyi/async-summary/refs/heads/main/doc/src/fe6f57cd6c.png" />
     </td>
     </tr>
     </table>
@@ -509,7 +509,7 @@
       <tr>
       <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">拨码
       </td>
-      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;"><img src="https://raw.githubusercontent.com/liu0fanyi/async-summary/refs/heads/main/doc/src/3436a55010.png" />
       </td>
       </tr>
       <tr>
@@ -1170,7 +1170,7 @@
       <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">
         <table style="border-width: 2pt; font-size: 10pt;">
         <tr>
-        <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">
+        <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;"><img src="https://raw.githubusercontent.com/liu0fanyi/async-summary/refs/heads/main/doc/src/f45d6694cc.png" />
         </td>
         </tr>
         </table>
@@ -2009,7 +2009,7 @@
     <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #C0FFC0;color: #000000;"><h2>阶段5</h2>
       <table style="border-width: 2pt; font-size: 11pt;">
       <tr>
-      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">将编译极简bin-只点个灯
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">编译极简bin-只点个灯
       </td>
       </tr>
       <tr>

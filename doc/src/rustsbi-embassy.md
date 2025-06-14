@@ -1,13 +1,27 @@
 # 塞昉星光2
 
-<iframe srcdoc='
 <!DOCTYPE html>
+
+<div class="isolated-container">
 <style>
-body { font-family: sans-serif; }
-table, th, td { border: 1px solid #A0A0A0; border-collapse: collapse; padding: 3px; vertical-align: top; }
-li { }
-img { max-width: 75%; height: auto; }
+.isolated-container body {
+  font-family: sans-serif !important;
+}
+.isolated-container table, th, td {
+  border: 1px solid #A0A0A0 !important;
+  text-align: left !important;
+  margin-left: 0 !important;
+  border-collapse: collapse !important;
+  padding: 3px !important;
+  vertical-align: top !important;
+}
+.isolated-container li {  !important;}
+.isolated-container img {
+  max-width: 75% !important;
+  height: auto !important;
+}
 </style>
+
 <table style="border-width: 2pt; font-size: 14pt;">
 <tr>
 <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">昉·星光 2
@@ -32,7 +46,7 @@ img { max-width: 75%; height: auto; }
   <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">
     <table style="border-width: 2pt; font-size: 12pt;">
     <tr>
-    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">编译rustsbi+uboot
+    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #C0FFC0;color: #000000;"><h2>编译rustsbi+uboot</h2>
     </td>
     </tr>
     </table>
@@ -394,11 +408,13 @@ img { max-width: 75%; height: auto; }
   <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">
     <table style="border-width: 2pt; font-size: 12pt;">
     <tr>
-    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">硬件管脚图
-    </td>
-    </tr>
-    <tr>
-    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">uart和gpio都用得到
+    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #C0FFC0;color: #000000;"><h2>硬件管脚图</h2>
+      <table style="border-width: 2pt; font-size: 11pt;">
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">uart和gpio都用得到
+      </td>
+      </tr>
+      </table>
     </td>
     </tr>
     </table>
@@ -406,14 +422,20 @@ img { max-width: 75%; height: auto; }
   <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">
     <table style="border-width: 2pt; font-size: 12pt;">
     <tr>
-    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;"><img src="https://raw.githubusercontent.com/liu0fanyi/async-summary/refs/heads/main/doc/src/fe6f57cd6c.png" />
+    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">
     </td>
     </tr>
     </table>
   </td>
   </tr>
   <tr>
-  <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">烧录
+  <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">
+    <table style="border-width: 2pt; font-size: 12pt;">
+    <tr>
+    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #C0FFC0;color: #000000;"><h2>烧录</h2>
+    </td>
+    </tr>
+    </table>
   </td>
   <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">
     <table style="border-width: 2pt; font-size: 12pt;">
@@ -487,7 +509,7 @@ img { max-width: 75%; height: auto; }
       <tr>
       <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">拨码
       </td>
-      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;"><img src="https://raw.githubusercontent.com/liu0fanyi/async-summary/refs/heads/main/doc/src/3436a55010.png" />
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">
       </td>
       </tr>
       <tr>
@@ -617,7 +639,13 @@ img { max-width: 75%; height: auto; }
   </td>
   </tr>
   <tr>
-  <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">参考文档
+  <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">
+    <table style="border-width: 2pt; font-size: 12pt;">
+    <tr>
+    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #C0FFC0;color: #000000;"><h2>参考文档</h2>
+    </td>
+    </tr>
+    </table>
   </td>
   <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">
     <table style="border-width: 2pt; font-size: 12pt;">
@@ -697,28 +725,34 @@ img { max-width: 75%; height: auto; }
   </td>
   </tr>
   <tr>
-  <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">阶段1
+  <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">
     <table style="border-width: 2pt; font-size: 12pt;">
     <tr>
-    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">在rustsbi的
-    </td>
-    </tr>
-    <tr>
-    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">
+    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #C0FFC0;color: #000000;"><h2>阶段1</h2>
       <table style="border-width: 2pt; font-size: 11pt;">
       <tr>
-      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">boot hart
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">在rustsbi的
       </td>
-      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">就是
+      </tr>
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">
+        <table style="border-width: 2pt; font-size: 10pt;">
+        <tr>
+        <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">boot hart
+        </td>
+        <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">就是
+        </td>
+        <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">hart 1
+        </td>
+        </tr>
+        </table>
       </td>
-      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">hart 1
+      </tr>
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">启动embassy
       </td>
       </tr>
       </table>
-    </td>
-    </tr>
-    <tr>
-    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">启动embassy
     </td>
     </tr>
     </table>
@@ -1021,10 +1055,16 @@ img { max-width: 75%; height: auto; }
   </td>
   </tr>
   <tr>
-  <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">阶段2
+  <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">
     <table style="border-width: 2pt; font-size: 12pt;">
     <tr>
-    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">实现gpio驱动
+    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #C0FFC0;color: #000000;"><h2>阶段2</h2>
+      <table style="border-width: 2pt; font-size: 11pt;">
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">实现gpio驱动
+      </td>
+      </tr>
+      </table>
     </td>
     </tr>
     </table>
@@ -1130,7 +1170,7 @@ img { max-width: 75%; height: auto; }
       <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">
         <table style="border-width: 2pt; font-size: 10pt;">
         <tr>
-        <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;"><img src="https://raw.githubusercontent.com/liu0fanyi/async-summary/refs/heads/main/doc/src/f45d6694cc.png" />
+        <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">
         </td>
         </tr>
         </table>
@@ -1189,14 +1229,20 @@ img { max-width: 75%; height: auto; }
   </td>
   </tr>
   <tr>
-  <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">阶段3
+  <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">
     <table style="border-width: 2pt; font-size: 12pt;">
     <tr>
-    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">在hart2上运行embassy
-    </td>
-    </tr>
-    <tr>
-    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">hart1上运行u-boot
+    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #C0FFC0;color: #000000;"><h2>阶段3</h2>
+      <table style="border-width: 2pt; font-size: 11pt;">
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">在hart2上运行embassy
+      </td>
+      </tr>
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">hart1上运行u-boot
+      </td>
+      </tr>
+      </table>
     </td>
     </tr>
     </table>
@@ -1267,14 +1313,20 @@ img { max-width: 75%; height: auto; }
   </td>
   </tr>
   <tr>
-  <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">阶段4
+  <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">
     <table style="border-width: 2pt; font-size: 12pt;">
     <tr>
-    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">在hart0小核上运行embassy
-    </td>
-    </tr>
-    <tr>
-    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">hart1上运行u-boot
+    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #C0FFC0;color: #000000;"><h2>阶段4</h2>
+      <table style="border-width: 2pt; font-size: 11pt;">
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">在hart0小核上运行embassy
+      </td>
+      </tr>
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">hart1上运行u-boot
+      </td>
+      </tr>
+      </table>
     </td>
     </tr>
     </table>
@@ -1950,8 +2002,737 @@ img { max-width: 75%; height: auto; }
     </table>
   </td>
   </tr>
+  <tr>
+  <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">
+    <table style="border-width: 2pt; font-size: 12pt;">
+    <tr>
+    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #C0FFC0;color: #000000;"><h2>阶段5</h2>
+      <table style="border-width: 2pt; font-size: 11pt;">
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">将编译极简bin-只点个灯
+      </td>
+      </tr>
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">然后像u-boot一样让rustsbi在0核启动
+      </td>
+      </tr>
+      </table>
+    </td>
+    </tr>
+    </table>
+  </td>
+  <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">
+    <table style="border-width: 2pt; font-size: 12pt;">
+    <tr>
+    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">Q
+    </td>
+    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">首先一个极简的bin文件
+    </td>
+    </tr>
+    <tr>
+    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">A
+    </td>
+    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">
+      <table style="border-width: 2pt; font-size: 11pt;">
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">只搬了gpio驱动过来
+      </td>
+      </tr>
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">并只点亮了灯，保证rustsbi真的有跳转过来
+      </td>
+      </tr>
+      </table>
+    </td>
+    </tr>
+    <tr>
+    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">Q
+    </td>
+    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">需要设计linker.ld文件
+    </td>
+    </tr>
+    <tr>
+    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">A
+    </td>
+    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">
+      <table style="border-width: 2pt; font-size: 11pt;">
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">直接参考的rustsbi的，不过稍微复杂了点
+      </td>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">
+      </td>
+      </tr>
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">所以又参考了rcore的应用那边的ld文件
+      </td>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">只做了最简单的配置
+      </td>
+      </tr>
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">地址参考了u-boot的位置
+      </td>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">位于0x80200000
+      </td>
+      </tr>
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">因而将embassy_app放在了
+      </td>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">0x80400000
+      </td>
+      </tr>
+      </table>
+    </td>
+    </tr>
+    <tr>
+    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">Q
+    </td>
+    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">需要让rustsbi加载新的bin
+    </td>
+    </tr>
+    <tr>
+    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">A
+    </td>
+    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">
+      <table style="border-width: 2pt; font-size: 11pt;">
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">首先修改了xtask，让它可以接受新的bin
+      </td>
+      </tr>
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">然后参考了u-boot的方法，在rustsbi/prototype/prototype/build.rs里添加了一个.text
+      </td>
+      </tr>
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">然后没成功，进入单板直接死掉了，访问了非法的地址
+      </td>
+      </tr>
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">经过各路AI瞎猜，最后感觉那个说u-boot-spl比较定制，处理不了这种链接的可能性较大
+      </td>
+      </tr>
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">因而改成了在rustsbi/prototyper/prototyper/src/firmware/payload.rs
+        <table style="border-width: 2pt; font-size: 10pt;">
+        <tr>
+        <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">内，直接添加了include_bytes的硬编码，以及加载地址0x80400000的硬编码
+        </td>
+        <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">很临时了
+        </td>
+        </tr>
+        <tr>
+        <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">xtask的修改已经没有了意义
+        </td>
+        <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">
+        </td>
+        </tr>
+        </table>
+      </td>
+      </tr>
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">并在main.rs那边
+        <table style="border-width: 2pt; font-size: 10pt;">
+        <tr>
+        <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">使用core::ptr::copy_nonoverlapping来将bin copy到对应的地址
+        </td>
+        </tr>
+        </table>
+      </td>
+      </tr>
+      </table>
+    </td>
+    </tr>
+    <tr>
+    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">Q
+    </td>
+    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">然后需要让rustsbi在hart 0执行跳转
+    </td>
+    </tr>
+    <tr>
+    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">A
+    </td>
+    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">
+      <table style="border-width: 2pt; font-size: 11pt;">
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">首先，再次，通过参考u-boot的跳转，使用了local_remote_hsm().start执行了地址跳转
+      </td>
+      </tr>
+      <tr>
+      <td style="font-weight: bold;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">卡了很久
+      </td>
+      </tr>
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">始终没有成功
+      </td>
+      </tr>
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">后来只能看了下hsm发现local_remote_hsm本身也有很多compare_exchange
+      </td>
+      </tr>
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">再加上main的后续，主要针对要跳转的是S态做了很多工作
+      </td>
+      </tr>
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">最后使用了更朴素的汇编来执行简单跳转
+        <table style="border-width: 2pt; font-size: 10pt;">
+        <tr>
+        <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">csrw mepc, a0
+        </td>
+        <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">来将跳转地址设置到mepc
+        </td>
+        </tr>
+        <tr>
+        <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">然后传递a1和a2
+        </td>
+        <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">尽管没有使用
+        </td>
+        </tr>
+        <tr>
+        <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">最后mret跳转
+        </td>
+        <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">
+        </td>
+        </tr>
+        </table>
+      </td>
+      </tr>
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">然后可以了，看到了亮灯
+      </td>
+      </tr>
+      </table>
+    </td>
+    </tr>
+    </table>
+  </td>
+  </tr>
+  <tr>
+  <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">
+    <table style="border-width: 2pt; font-size: 12pt;">
+    <tr>
+    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #C0FFC0;color: #000000;"><h2>阶段6</h2>
+      <table style="border-width: 2pt; font-size: 11pt;">
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">在新的bin内添加embassy逻辑
+      </td>
+      </tr>
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">现在叫embassy_app
+      </td>
+      </tr>
+      </table>
+    </td>
+    </tr>
+    </table>
+  </td>
+  <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">
+    <table style="border-width: 2pt; font-size: 12pt;">
+    <tr>
+    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">Q
+    </td>
+    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">
+      <table style="border-width: 2pt; font-size: 11pt;">
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">time_driver需要重新实现
+      </td>
+      </tr>
+      </table>
+    </td>
+    </tr>
+    <tr>
+    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">A
+    </td>
+    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">
+      <table style="border-width: 2pt; font-size: 11pt;">
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">
+        <table style="border-width: 2pt; font-size: 10pt;">
+        <tr>
+        <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">之前使用的rustsbi的ipi相关的功能
+        </td>
+        </tr>
+        <tr>
+        <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">现在需要直接使用底层的sifive的一个包来做类似的操作
+        </td>
+        </tr>
+        <tr>
+        <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">需要重新传入相关clint的地址
+        </td>
+        </tr>
+        <tr>
+        <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">查看dts是0x20000000
+        </td>
+        </tr>
+        </table>
+      </td>
+      </tr>
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">
+        <table style="border-width: 2pt; font-size: 10pt;">
+        <tr>
+        <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">本想使用embassy提供的StaticCell包装，但只能产生一个可以move的&amp;static mut
+        </td>
+        </tr>
+        <tr>
+        <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">不方便在time_driver的DRIVER里直接使用
+        </td>
+        </tr>
+        <tr>
+        <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">最后直接用的static mut
+        </td>
+        </tr>
+        </table>
+      </td>
+      </tr>
+      </table>
+    </td>
+    </tr>
+    <tr>
+    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">Q
+    </td>
+    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">串口驱动需要重新实现
+    </td>
+    </tr>
+    <tr>
+    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">A
+    </td>
+    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">
+      <table style="border-width: 2pt; font-size: 11pt;">
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">直接把rustsbi的相关串口驱动，更底层一些的uart，忽略了上层的抽象
+      </td>
+      </tr>
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">搬了过来
+      </td>
+      </tr>
+      </table>
+    </td>
+    </tr>
+    <tr>
+    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">Q
+    </td>
+    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">
+      <table style="border-width: 2pt; font-size: 11pt;">
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">log需要重新实现（失败了）
+      </td>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">TODO
+      </td>
+      </tr>
+      </table>
+    </td>
+    </tr>
+    <tr>
+    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">A
+    </td>
+    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">
+      <table style="border-width: 2pt; font-size: 11pt;">
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">由于不支持compare_exchange只能使用log::set_logger_racy(&amp;Logger)
+      </td>
+      </tr>
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">虽然这一条初始化成功了
+      </td>
+      </tr>
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">但后续使用info!还是会卡住
+      </td>
+      </tr>
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">info的宏展开没有发现什么其他的原子读改写类似操作，因而先放弃了
+      </td>
+      </tr>
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">直接使用println!姑且也可以调试
+      </td>
+      </tr>
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">println直接使用的串口驱动实现
+      </td>
+      </tr>
+      </table>
+    </td>
+    </tr>
+    <tr>
+    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">Q
+    </td>
+    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">
+      <table style="border-width: 2pt; font-size: 11pt;">
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">第一轮卡在了embassy的StaticCell的init操作
+      </td>
+      </tr>
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">这里有AtomicBool的compare_exchange
+      </td>
+      </tr>
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">怀疑是这里的问题
+      </td>
+      </tr>
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">
+        <table style="border-width: 2pt; font-size: 10pt;">
+        <tr>
+        <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">但
+        </td>
+        <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">在rustsbi里直接运行embassy的时候使用了相同的StaticCell的init
+        </td>
+        </tr>
+        <tr>
+        <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">
+        </td>
+        <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">也就是这很可能不是问题，也就是支持AtomicBool的compare_exchange
+        </td>
+        </tr>
+        </table>
+      </td>
+      </tr>
+      <tr>
+      <td style="font-weight: bold;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">在下一个Q这个问题解决了
+      </td>
+      </tr>
+      </table>
+    </td>
+    </tr>
+    <tr>
+    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">A
+    </td>
+    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">先只简单的改成了不用compare_exchange的代码后跳过这个问题
+    </td>
+    </tr>
+    <tr>
+    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">Q
+    </td>
+    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">
+      <table style="border-width: 2pt; font-size: 11pt;">
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">第二轮卡在了spawn
+      </td>
+      </tr>
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">返回的是SpawnError::Busy，说我的Poolsize大小不够，已经耗尽
+      </td>
+      </tr>
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">重新展开宏
+      </td>
+      </tr>
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">POOL是个静态变量，默认size是1
+      </td>
+      </tr>
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">经过各种AI的瞎猜，最后认为是bss段有问题
+      </td>
+      </tr>
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">于是将POOL强行放进了data段，成功运行了embassy
+      </td>
+      </tr>
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">但POOL在，rustsbi直接运行embassy的时候也是放在bss段的，也就是全0静态
+        <table style="border-width: 2pt; font-size: 10pt;">
+        <tr>
+        <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">反编译了查看了一下
+        </td>
+        </tr>
+        </table>
+      </td>
+      </tr>
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">因而重新检查了linker.ld
+      </td>
+      </tr>
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">发现写的有问题，*.bss段没有正常收集（大意没写，大概这样子）
+        <table style="border-width: 2pt; font-size: 10pt;">
+        <tr>
+        <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">旧的
+          <table style="border-width: 2pt; font-size: 9pt;">
+          <tr>
+          <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">.bss (NOLOAD) : ALIGN(0x1000) {
+            <table style="border-width: 2pt; font-size: 8pt;">
+            <tr>
+            <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">start_bss = .;
+            </td>
+            </tr>
+            <tr>
+            <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">*(.bss.stack)
+            </td>
+            </tr>
+            <tr>
+            <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">*(.sbss .sbss.*)
+            </td>
+            </tr>
+            <tr>
+            <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">end_bss = .;
+            </td>
+            </tr>
+            </table>
+          </td>
+          </tr>
+          <tr>
+          <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">}
+          </td>
+          </tr>
+          </table>
+        </td>
+        <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">新的
+          <table style="border-width: 2pt; font-size: 9pt;">
+          <tr>
+          <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">.bss (NOLOAD) : ALIGN(0x1000) {
+            <table style="border-width: 2pt; font-size: 8pt;">
+            <tr>
+            <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">*(.bss.stack)
+            </td>
+            </tr>
+            <tr>
+            <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">start_bss = .;
+            </td>
+            </tr>
+            <tr>
+            <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">*(.bss .bss.*)
+            </td>
+            </tr>
+            <tr>
+            <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">*(.sbss .sbss.*)
+            </td>
+            </tr>
+            <tr>
+            <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">end_bss = .;
+            </td>
+            </tr>
+            </table>
+          </td>
+          </tr>
+          <tr>
+          <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">}
+          </td>
+          </tr>
+          </table>
+        </td>
+        </tr>
+        </table>
+      </td>
+      </tr>
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">也就是一个bss.stack没必要放进需要清空的start_bss-end_bss
+      </td>
+      </tr>
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">其次*(.bss .bss.*)不能省略，不然反编译后，.bss段分成了多个部分嗯
+        <table style="border-width: 2pt; font-size: 10pt;">
+        <tr>
+        <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">暂不太清楚怎么理解，反正不太正常，有多个section .bss
+        </td>
+        <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">TODO
+        </td>
+        </tr>
+        </table>
+      </td>
+      </tr>
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">
+        <table style="border-width: 2pt; font-size: 10pt;">
+        <tr>
+        <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">经过修改后
+        </td>
+        </tr>
+        <tr>
+        <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">StaticCell的问题也消失了，可以正常使用AtomicBool的compare_exchange
+        </td>
+        </tr>
+        <tr>
+        <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">也不需要将POOL强行放入data段了
+        </td>
+        </tr>
+        </table>
+      </td>
+      </tr>
+      </table>
+    </td>
+    </tr>
+    </table>
+  </td>
+  </tr>
+  <tr>
+  <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">
+    <table style="border-width: 2pt; font-size: 12pt;">
+    <tr>
+    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #C0FFC0;color: #000000;"><h2>阶段7（失败了）</h2>
+      <table style="border-width: 2pt; font-size: 11pt;">
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">尝试修改编译条件
+      </td>
+      </tr>
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">在不用给embassy添加新feature的条件下
+      </td>
+      </tr>
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">可以直接使用embassy
+      </td>
+      </tr>
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">即，同时满足not(target_has_atomic = "ptr")
+        <table style="border-width: 2pt; font-size: 10pt;">
+        <tr>
+        <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">ptr是当前平台的指针宽度，这里等同于64
+        </td>
+        </tr>
+        </table>
+      </td>
+      </tr>
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">和not(target_has_atomic = "8")
+      </td>
+      </tr>
+      </table>
+    </td>
+    </tr>
+    </table>
+  </td>
+  <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">
+    <table style="border-width: 2pt; font-size: 12pt;">
+    <tr>
+    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">Q
+    </td>
+    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">首先，尝试使用riscv64imc来编译，也就是去掉a，不过riscv64没有imc只有riscv32有
+    </td>
+    </tr>
+    <tr>
+    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">A
+    </td>
+    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">
+      <table style="border-width: 2pt; font-size: 11pt;">
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">尝试了riscv32imc，s7核是64bit的问题较多放弃
+      </td>
+      </tr>
+      </table>
+    </td>
+    </tr>
+    <tr>
+    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">Q
+    </td>
+    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">尝试用riscv64imac生成json然后修改来变成不支持a的情况
+    </td>
+    </tr>
+    <tr>
+    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">A
+    </td>
+    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">
+      <table style="border-width: 2pt; font-size: 11pt;">
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">首先，riscv64imac生成json
+      </td>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">rustc -Z unstable-options --print target-spec-json --target riscv64imac-unknown-none-elf | self
+      </td>
+      </tr>
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">修改后的json见代码
+      </td>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">就是去掉了a
+      </td>
+      </tr>
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">然后这个东西现在需要重新编译core
+      </td>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">
+        <table style="border-width: 2pt; font-size: 10pt;">
+        <tr>
+        <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">修改了.cargo/config.toml
+        </td>
+        </tr>
+        <tr>
+        <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">使用的是build-std和build-std-features
+        </td>
+        </tr>
+        <tr>
+        <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">然后build target是riscv64imc.json
+        </td>
+        </tr>
+        <tr>
+        <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">使用cargo build -Z build-std --release
+        </td>
+        </tr>
+        </table>
+      </td>
+      </tr>
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">出现了很多问题，因为现在连load/save操作也不支持了
+      </td>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">
+        <table style="border-width: 2pt; font-size: 10pt;">
+        <tr>
+        <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">embassy出现了大量的编译问题
+        </td>
+        <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">
+        </td>
+        </tr>
+        <tr>
+        <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">首先spin_lock不行
+        </td>
+        <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">修改成creatical_section
+        </td>
+        </tr>
+        <tr>
+        <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">然后StaticCell不行
+        </td>
+        <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">改成static mut
+        </td>
+        </tr>
+        <tr>
+        <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">然后raw_waker不行
+        </td>
+        <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">
+        </td>
+        </tr>
+        <tr>
+        <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">然后thread::executor不行
+        </td>
+        <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">
+        </td>
+        </tr>
+        <tr>
+        <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">然后raw::SyncExecutor不行
+        </td>
+        <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">
+        </td>
+        </tr>
+        <tr>
+        <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">修改量太大，没招了
+        </td>
+        <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">
+        </td>
+        </tr>
+        </table>
+      </td>
+      </tr>
+      </table>
+    </td>
+    </tr>
+    <tr>
+    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">Q
+    </td>
+    <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">
+      <table style="border-width: 2pt; font-size: 11pt;">
+      <tr>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">目前做不到要求细粒度的编译修改，因而暂时搁置
+      </td>
+      <td style="font-weight: normal;font-style: normal;font-family: sans-serif;background-color: #FFFFFF;color: #000000;">TODO
+      </td>
+      </tr>
+      </table>
+    </td>
+    </tr>
+    </table>
+  </td>
+  </tr>
   </table>
 </td>
 </tr>
 </table>
-' width="100%" height="1200px"></iframe>

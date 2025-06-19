@@ -10,5 +10,6 @@
   - [阶段4-rustsbi下-hart0小核运行embassy](./4.md)
   - [阶段5-编译极简点灯bin-从rustsbi-hart0跳转](./5.md)
   - [阶段6-新bin添加embassy运行](./6.md)
-  - [阶段7-修改编译条件直接编译embassy(失败)](./7.md)
+  - [阶段7-修改编译条件直接编译embassy](./7.md)
+  - [总结](./8.md)
 

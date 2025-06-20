@@ -1,8 +1,4 @@
-# codex
-*  set `$env.DEEPSEEK_API_KEY`
-*  `codex -m deepseek-chat -p deepseek`
-
-# mdbook
+# 使用mdbook
 ## 初始化一个mdbook
 * `mdbook init doc`
 ## 当前工作目录
@@ -24,3 +20,7 @@
     ...
   ```
 * 重新更新上传等待Actions完成即可
+
+# codex使用ds
+*  set `$env.DEEPSEEK_API_KEY`
+*  `codex -m deepseek-chat -p deepseek`

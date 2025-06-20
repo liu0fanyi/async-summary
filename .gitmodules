@@ -1,0 +1,11 @@
+[submodule "project/code/embassy"]
+	path = project/code/embassy
+	url = git@github.com:liu0fanyi/embassy.git
+	branch = xingguang-add-force-critical-section-feature
+[submodule "project/code/embassy_app"]
+	path = project/code/embassy_app
+	url = git@github.com:liu0fanyi/embassy_app.git
+[submodule "project/code/rustsbi"]
+	path = project/code/rustsbi
+	url = git@github.com:liu0fanyi/rustsbi.git
+	branch = xingguang-rustsbi-load-embassy-by-bin

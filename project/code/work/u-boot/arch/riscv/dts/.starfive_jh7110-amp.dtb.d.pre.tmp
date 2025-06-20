@@ -1,0 +1,15 @@
+.starfive_jh7110-amp.dtb.pre.o: \
+ arch/riscv/dts/.starfive_jh7110-amp.dtb.pre.tmp \
+ /home/VisionFive2/u-boot/include/linux/kconfig.h \
+ include/generated/autoconf.h \
+ /home/VisionFive2/u-boot/arch/riscv/dts/starfive_visionfive2.dts \
+ /home/VisionFive2/u-boot/arch/riscv/dts/jh7110.dtsi \
+ /home/VisionFive2/u-boot/arch/riscv/dts/jh7110_clk.dtsi \
+ /home/VisionFive2/u-boot/include/dt-bindings/reset/starfive-jh7110.h \
+ /home/VisionFive2/u-boot/include/dt-bindings/clock/starfive-jh7110-clkgen.h \
+ /home/VisionFive2/u-boot/include/dt-bindings/clock/starfive-jh7110-isp.h \
+ /home/VisionFive2/u-boot/include/dt-bindings/gpio/gpio.h \
+ /home/VisionFive2/u-boot/include/dt-bindings/pinctrl/pinctrl-starfive-jh7110.h \
+ /home/VisionFive2/u-boot/arch/riscv/dts/starfive_jh7110-amp-u-boot.dtsi \
+ /home/VisionFive2/u-boot/arch/riscv/dts/starfive_visionfive2-u-boot.dtsi \
+ /home/VisionFive2/u-boot/arch/riscv/dts/jh7110-u-boot.dtsi

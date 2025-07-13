@@ -6,6 +6,7 @@
 *.o
 *.elf
 *.bin
+!/code/work/u-boot/u-boot.bin
 qemu.log
 rusty-tags.vi
 lk_trace.data
